@@ -429,23 +429,25 @@ body {
       -webkit-animation-name: colorful;
               animation-name: colorful;
       -webkit-animation-duration: 0.5s;
-              animation-duration: 0.5s; }
+              animation-duration: 0.5s;
+      -webkit-animation-fill-mode: forwards;
+              animation-fill-mode: forwards; }
 
 @-webkit-keyframes colorful {
   100% {
     background-color: pink;
     position: relative;
     bottom: 20px;
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg); } }
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
 
 @keyframes colorful {
   100% {
     background-color: pink;
     position: relative;
     bottom: 20px;
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg); } }
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
   .calendar-mon > div:first-child {
     margin-left: 1px; }
   .calendar-tue > div:first-child {
