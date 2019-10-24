@@ -1,0 +1,12 @@
+$day-cell-width: 100px;
+$day-cell-height: 100px;
+$day-cell-bg-color: #eee;
+$day-cell-border-width: 1px;
+$day-cell-border-type: solid;
+$day-cell-border-color: black;
+$gap-between-cells: 1px;
+$date-font: "Arial";
+$date-font-size: 30px;
+$day-cell-full-width: $day-cell-width+$gap-between-cells;
+$hovered-cell-height: 20px;
+$hovered-cell-bg: pink;
