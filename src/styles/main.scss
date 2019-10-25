@@ -63,7 +63,8 @@ body {
 
   @each $i, $day in $days {
     &-#{$day} > div:first-child {
-      margin-left: ($i*$day-cell-full-width)-($day-cell-full-width)+1;
+      margin-left: ($i*$day-cell-full-width)-($day-cell-full-width)
+        +$gap-between-cells;
     }
   }
 
